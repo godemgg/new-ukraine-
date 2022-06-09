@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    font-family: 'Jura', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+header div:first-child div:first-child{
+    display: flex;
+    align-items: center;
+}
+header div:first-child div:first-child img{
+    width: 86.42px;
+    height: 100px;
+    
+}
+header div:first-child div:first-child div{
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    margin: 0 auto;
+    height: 14px;
+}
+header div:first-child div:first-child div a{
+    text-decoration: none;
+    color: #006AA7;
+}
+header div:first-child div:first-child div a:hover{
+    transition: 0.3s;
+    text-decoration: underline;
+}
+header div:first-child div:last-child h1{
+    margin-top: 100px;
+    font-weight: 700px;
+    font-size: 100px;
+}
+.the-floor-logo{
+    font-weight: 700;
+    font-size: 50px;
+    width: 501px;
+    color: #000000;
+}
+.about-ukraine-p{
+    color: #000000;
+    width: 565px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.more-info{
+    text-decoration: none;
+    background-color: #006AA7;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    width: 250px;
+    height: 50px;
+    margin-top: 40px;
+}
+.more-info:hover{
+    background-color: #024D79;
+    transition: 0.3s;
+}
+.formation-of-the-mentality-of-ukrainians{
+    background-color: #F5F5F5;
+    width: 1240px;
+}
+.formation-mentality-title{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+.formation-mentality-subtitle{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 40px;
+    color: #000000;
+}
+.formation-mentality-wrapper-block{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.formation-mentality-wrapper-block div{
+    background-color: #FFFFFF;
+    width: 260px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formation-mentality-wrapper-block div:hover{
+    transition: 0.3s;
+    background-color: #006AA7;
+    color: #FFFFFF;
+}
+.formation-mentality-wrapper-block div img:first-child{
+    width: 50px;
+    height: 50px;
+    display: block;
+    align-self: flex-start;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.formation-mentality-wrapper-block-title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 235px;
+    display: block;
+    text-align: left;
+}
+.formation-mentality-wrapper-block-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    width: 235px;
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.more-title{
+    font-weight: 400;
+    display: block;
+    font-size: 16px;
+    margin-left: 45px;
+}
+.formation-mentality-wrapper-block div img:last-child{
+    width: 40px;
+    display: block;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: -28px;
+}
+.ukrainian-cossacks-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 19px;
+    color: #000000;
+}
+.information-about-cossacks-wrapper-block{
+    padding-bottom: 40px;
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.about-kozak{
+    background-color: #006AA7;
+    color: #FFFFFF;
+    width: 530px;
+    height: 180px;
+    border-radius: 5px;
+    border: 2px solid #808080;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-kozak div{
+    width: 366px;
+}
+.about-kozak div p:first-child{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.about-kozak div p:last-child{
+    width: 366px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+}
+.about-kozak img{
+    width: 100px;
+    height: 124.07px;
+}
+.cossack-values{
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 180px;
+    border-radius: 5px;
+    border: 2px solid #808080;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cossack-values p:first-child{
+    font-weight: 700;
+    text-align: left;
+    width: 226px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.cossack-values p:last-child{
+    width: 226px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+.courage-and-fearlessness{
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 180px;
+    border-radius: 5px;
+    border: 2px solid #808080;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.courage-and-fearlessness p:first-child{
+    font-weight: 700;
+    text-align: left;
+    width: 226px;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.courage-and-fearlessness p:last-child{
+    width: 226px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+.the-desire-for-heaven{
+    background-color: #F9C00D;
+    width: 1240px;
+    height: 450px;
+}
+.the-desire-for-heaven p:first-child{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 30px;
+    font-size: 19px;
+}
+.the-desire-for-heaven-wrapper-block{
+    display: flex;
+    justify-content: space-evenly;
+}
+.the-desire-for-heaven-wrapper-block div{
+    align-self: center;
+}
+.the-desire-for-heaven-wrapper-block div:first-child p{
+    font-weight: 600;
+    width: 677px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.the-desire-for-heaven-wrapper-block-div-first-child-a, .information-about-cossacks-more-info{
+    background: #F9C00D;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 33px;
+    margin-top: -10px;
+}
+.information-about-cossacks-more-info{
+    margin-left: 70px;
+}
+.the-desire-for-heaven-wrapper-block-div-first-child-a:hover{
+    background-color: #BD930A;
+    transition: 0.3s;
+}
+.information-about-cossacks-more-info:hover{
+    background-color: #BD930A;
+    transition: 0.3s;
+}
+.the-desire-for-heaven-wrapper-block div:last-child img{
+    width: 450px;
+    height: 300px;
+}
+.who-are-we-today-title{
+    font-weight: 600;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 16px;
+}
+.who-are-we-today-subtitle{
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.a-description-of-who-we-are-today{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.a-description-of-who-we-are-today div{
+    width: 260px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-description-of-who-we-are-today div p{
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    width: 240px;
+}
+.continue-to-live-and-inspire-the-whole-world{
+    width: 1100px;
+    margin: 0 auto;
+}
+.continue-to-live-and-inspire-the-whole-world p{
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 15px;
+}
+.continue-to-live-and-inspire-the-whole-world div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.continue-to-live-and-inspire-the-whole-world div img{
+    width: 200px;
+    height: 160px;
+}
+.dream-loss{
+    margin: 0 auto;
+    background-color: #006AA7;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 55px;
+}
+.dream-loss p{
+    width: 476px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.dream-loss img{
+    width: 200px;
+    height: 200px;
+}
+.digitalization-in-ukraine{
+    width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.digitalization-in-ukraine-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+}
+.digitalization-in-ukraine-subtitle{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 13px;
+}
+.digitalization-in-ukraine-wrapper-block{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.digitalization-in-ukraine-wrapper-block div{
+    margin: 5px;
+    width: 350px;
+    height: 120px;
+    background-color: #F9C00D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.digitalization-in-ukraine-wrapper-block div img{
+    width: 100px;
+    height: 100px;
+}
+.digitalization-in-ukraine-wrapper-block div p{
+    width: 213px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.future{
+    background-color: #E5E5E5;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.the-future-of-ukraine-is-its-people-title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.the-future-of-ukraine-is-its-people-subtitle{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div{
+    width: 340px;
+    background-color: #FFFFFF;
+    height: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div:hover{
+    background-color: #006AA7;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div:nth-child(4){
+    width: 520px;
+    height: 200px;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div:last-child{
+    width: 520px;
+    height: 200px;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div img{
+    width: 40px;
+    height: 40px;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 309px;
+    height: 142px;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div:nth-child(4) p{
+    width: 492px;
+    height: 101px;
+}
+.the-future-of-ukraine-is-its-people-wrapper-block div:last-child p{
+    width: 492px;
+    height: 101px;
+}
+.nation-of-free-people{
+    margin-bottom: 60px;
+}
+.nation-of-free-people-title{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+.nation-of-free-people div{
+    padding-top: 20px;
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nation-of-free-people div img{
+    width: 250px;
+    height: 160px;
+}
+.ukrainians-about-ukraine-title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+.ukrainians-about-ukraine-wrapper-block{
+    margin: 0 auto;
+    display: flex;
+    width: 1070px;
+    flex-wrap: wrap;
+}
+.ukrainians-about-ukraine-wrapper-block div{
+    width: 525px;
+    margin: 5px;
+    height: 150px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.ukrainians-about-ukraine-wrapper-block div div{
+    width: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ukrainians-about-ukraine-wrapper-block div img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+.ukrainians-about-ukraine-wrapper-block div div p:first-child{
+    font-weight: 700;
+    font-size: 16px;
+    width: 391px;
+}
+.ukrainians-about-ukraine-wrapper-block div div p:last-child{
+    font-weight: 400;
+    font-size: 16px;
+    width: 391px;
+}
+footer{
+    background-color: #006AA7;
+    align-items: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    margin-right: 10px;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 700;
+}
+footer img{
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
